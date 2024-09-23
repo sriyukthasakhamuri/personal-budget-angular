@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 10px;
+    font-family: Tahoma, Arial;
+}
+
+nav.menu {
+    width: 100%;
+    background-color: #4d5791;
+    height: 44px;
+    padding: 0 40px;
+}
+
+nav.menu ul,
+nav.menu ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+nav.menu ul li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 44px;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+}
+
+nav.menu ul li a:hover {
+    background-color: white;
+    color: #4d5791;
+}
+
+nav.menu ul li a.skip-to-content {
+    position: relative;
+    left: 64vw;
+    display: block;
+    padding: 0 20px;
+    line-height: 44px;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+}
+
+nav.menu ul li a.skip-to-content:hover {
+    background-color: white;
+    color: #4d5791;
+}
+
+header.hero {
+    height: 350px;
+    background-color: #b4c6f0;
+    background-image: url('./bg.png');
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-top: 40px;
+}
+
+header.hero h1,
+header.hero h2 {
+    text-align: center;
+    margin: 0;
+}
+
+header.hero h1 {
+    color: #fff;
+    font-size: 4.2em;
+    margin-bottom: 20px;
+}
+
+header.hero h2 {
+    color: #4d5791;
+}
+
+.container {
+    padding: 40px;
+    width: 100%;
+}
+
+.page-area {
+    max-width: 800px;
+    display: inline-block;
+}
+
+.bottom {
+    height: 50px;
+    background-color: #b4c6f0;
+    padding: 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+.container article.text-box {
+    display: inline-block;
+    width: 100%;
+    max-width: 350px;
+    text-align: justify;
+    margin: 20px;
+    padding: 0.3rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #c8d4f0;
+}
+
+.d3-chart {
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #c8d4f0;
+}
+
+/* @media screen and (min-width: 768px) {
+    .container .div.text-box {
+        margin: 10px;
+    }
+} */
+
+/* Responsive styling for smaller screens using media queries */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .container {
+        padding: 20px;
+        /* Adjust padding for smaller screens */
+    }
+
+    .hero {
+        height: 250px;
+        /* Adjust the height of the hero section for smaller screens */
+        background-size: 300px;
+        /* Adjust background size for smaller screens */
+    }
+
+    .text-box {
+        max-width: 100%;
+        /* Make text boxes occupy full width on smaller screens */
+        margin: 10px;
+        /* Adjust margin for smaller screens */
+    }
+
+    .bottom {
+        padding: 20px;
+        /* Adjust padding for the bottom section on smaller screens */
+    }
+
+    div.menu ul {
+        text-align: center;
+        /* Center align menu items on smaller screens */
+    }
+
+    div.menu ul li {
+        display: block;
+        margin: 10px 0;
+        /* Add spacing between menu items on smaller screens */
+    }
+}

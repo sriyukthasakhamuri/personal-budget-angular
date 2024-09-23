@@ -1,0 +1,32 @@
+{
+    "myBudget": [
+        {
+            "title": "Restaurent",
+            "budget": 40
+        },
+        {
+            "title": "Expenses",
+            "budget": 120
+        },
+        {
+            "title": "Snacks",
+            "budget": 350
+        },
+        {
+            "title": "Bills",
+            "budget": 190
+        },
+        {
+            "title": "Transport",
+            "budget": 20
+        },
+        {
+            "title": "Tution fees",
+            "budget": 70
+        },
+        {
+            "title": "Travel",
+            "budget": 100
+        }
+    ]
+}
